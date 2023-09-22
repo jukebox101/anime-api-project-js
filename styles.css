@@ -1,0 +1,34 @@
+/* Style for each row */
+.result-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Add spacing between rows */
+}
+
+/* Style for each element within a row */
+.result-row > div {
+    flex-basis: calc(33.33% - 10px); /* Set width for each element */
+    background-color: #f0f0f0; /* Background color or other styles */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 8px;
+  }
+
+div.search-container {
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+h1.title {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+body {
+    text-align: center;
+}
